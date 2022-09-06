@@ -1,0 +1,54 @@
+{% extends "base.html" %} {% block title%}Todolist{% endblock %}
+{% block todolistactive %}active{% endblock %}
+{% block content%}
+
+
+
+<div class="tab mt-4 my-2">
+  <a class="button-33 mb-4" href="{% url 'todolist' %}">Add Task</a>
+  <a class="button-33 mb-4">View Task</a>
+</div>
+
+
+
+
+<div class="container scroll  px-5">
+  <table class="table1 table  table-striped table-dark ">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Status</th>
+        <th scope="col">Task</th>
+        <th scope="col">Task Description</th>
+        <th scope="col">Time of Creation</th>
+        <th scope="col">Actions</th>
+
+      </tr>
+    </thead>
+    <tbody>
+    
+      {% for task in tasks %}
+      <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        {% if task.checked == True %}
+        <td><input class="form-check-input" type="checkbox" value="{{ task.checked }}" checked></td>
+        {% else %}
+        <td><input class="form-check-input" type="checkbox" value="{{ task.checked }}"></td>
+        {% endif %}
+        <td>{{ task.tasktitle }}</td>
+        <td>{{ task.taskDesc }}</td>
+        <td>{{ task.time}}</td>
+        <td><a class="txtcolor btn btn-outline-primary" href="{% url 'update' task.id %}">Edit</a>
+          <a class="txtcolor btn btn-outline-danger" href="{% url 'delete' task.id %}">Delete</a>
+        </td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+</div>
+
+
+<script src="../static/js/script.js "></script>
+
+{% endblock %}
