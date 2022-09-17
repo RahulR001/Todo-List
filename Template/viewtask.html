@@ -2,15 +2,10 @@
 {% block todolistactive %}active{% endblock %}
 {% block content%}
 
-
-
 <div class="tab mt-4 my-2">
   <a class="button-33 mb-4" href="{% url 'todolist' %}">Add Task</a>
   <a class="button-33 mb-4">View Task</a>
 </div>
-
-
-
 
 <div class="container scroll  px-5">
   <table class="table1 table  table-striped table-dark ">
@@ -22,11 +17,10 @@
         <th scope="col">Task Description</th>
         <th scope="col">Time of Creation</th>
         <th scope="col">Actions</th>
-
       </tr>
     </thead>
+
     <tbody>
-    
       {% for task in tasks %}
       <tr>
         <th scope="row">{{ forloop.counter }}</th>
@@ -43,12 +37,9 @@
         </td>
       </tr>
       {% endfor %}
-      
     </tbody>
+
   </table>
 </div>
-
-
-<script src="../static/js/script.js "></script>
 
 {% endblock %}

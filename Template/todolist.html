@@ -4,49 +4,42 @@
 {% load widget_tweaks %}
 
 <div class="container text-center">
-  <div class="row-md-6 mt-4">
-    <h1><label class="  txtcolor ">Welcome To Todolist</label></h1>
-  </div>
+    <div class="row-md-6 mt-4">
+        <h1><label class="  txtcolor ">Welcome To Todolist</label></h1>
+    </div>
 </div>
 
-
 <div class="tab mt-4 my-2">
-  <a class="button-33 mb-4">Add Task</a>
-  <a class="button-33 mb-4" href="{% url 'viewtask' %}">View Task</a>
+    <a class="button-33 mb-4">Add Task</a>
+    <a class="button-33 mb-4" href="{% url 'viewtask' %}">View Task</a>
 </div>
 
 <form method="post">
-  {% csrf_token %}
-
-  <div class="container my-3 col-5 px-5">
-    <div class="row-md-6">
-      <label class="form-label txtcolor">Task Title</label>
-      {% render_field form.tasktitle class="form-control" type="text" %}
-
+    {% csrf_token %}
+    <div class="container my-3 col-5 px-5">
+        <div class="row-md-6">
+            <label class="form-label txtcolor">Task Title</label>
+            {% render_field form.tasktitle class="form-control" type="text" %}
+        </div>
     </div>
-  </div>
-  <div class="container col-5 px-5">
-    <div class="row-md-6">
-      <label class="form-label txtcolor">Task Description</label>
-
-      {% render_field form.taskDesc class="form-control" type="text" %}
-
+    <div class="container col-5 px-5">
+        <div class="row-md-6">
+            <label class="form-label txtcolor">Task Description</label>
+            {% render_field form.taskDesc class="form-control" type="text" %}
+        </div>
     </div>
-  </div>
-  <div class="container col-5 px-5">
-    <div class="form-check my-4">
-
-      {% render_field form.checked class="form-check-input" type="checkbox" %}
-
-      <label class="form-check-label txtcolor">
-        Checked
-      </label>
+    <div class="container col-5 px-5">
+        <div class="form-check my-4">
+            {% render_field form.checked class="form-check-input" type="checkbox" %}
+            <label class="form-check-label txtcolor">
+                Checked
+            </label>
+        </div>
+        <div class="text-center my-4">
+            <button type="submit" class="button-33">Add to list</button>
+        </div>
     </div>
 
-    <div class="text-center my-4">
-      <button type="submit" class="button-33">Add to list</button>
-    </div>
-  </div>
 </form>
 
 
