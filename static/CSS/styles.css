@@ -2,8 +2,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 
-/*========== Contact-page ==========*/
+/*========== home-page ==========*/
 
+.name {
+    display: flex;
+    flex-direction: start;
+    color: white;
+    font-size: 45px;
+}
+
+.h {
+
+    color: rgb(0, 255, 34);
+    font-size: 45px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+
+.h1text {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    color: white;
+    line-height: 40px;
+}
+
+.piccontainer {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    border: 0;
+    padding: 0;
+    margin-top: -30px;
+
+}
+
+.pic {
+    text-align: right;
+    border-radius: 11%;
+    border-color: red;
+    height: 20%;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: -48px;
+    border: 3px solid;
+    margin-top: 125px;
+    margin-right: -86px;
+}
+
+.textcontainer {
+    margin-top: 196px;
+    margin-right: 360px;
+    margin-left: -64px;
+}
+
+
+/*========== Contact-page ==========*/
 
 .heading {
     color: yellow;
@@ -26,7 +86,6 @@
 
 /*========== Viewtask-page ==========*/
 
-
 .scroll {
     scroll-behavior: smooth;
     width: 100%;
@@ -41,7 +100,6 @@
 
 
 /*========== Base-template ==========*/
-
 
 .main {
     background-color: black;
@@ -115,19 +173,7 @@ a:hover {
 }
 
 
-/*========== Project-page ==========*/
-
-
-.project-item {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    
-}
-
-
 /*========== Universe-style ==========*/
-
 
 .txtcolor {
     color: rgb(255, 255, 255);
@@ -137,7 +183,6 @@ a:hover {
 
 
 /*========== Bootstrap-alteration ==========*/
-
 
 .card {
     margin-left: 50px;
@@ -266,7 +311,6 @@ a:hover {
 
 
 /*========== Animations ==========*/
-
 
 @keyframes animate {
     0% {
