@@ -93,7 +93,6 @@ def login(request):
             loginuser(request,user)
             return redirect('todolist')
         else:
-            print(form)
             messages.error(request,'Username and Password Incorrect')
     else:
         form = AuthenticationForm()

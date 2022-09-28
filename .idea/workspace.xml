@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d3dd80-f15b-4c3e-a236-8b28ac52e2cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Template/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Template/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/CSS/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/registration/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +24,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "415a02",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;415a02&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
