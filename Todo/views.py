@@ -6,6 +6,8 @@ from .forms import TaskForm, NewUser,contactform
 from django.contrib.auth import login as loginuser, authenticate
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.decorators import login_required
+from django.core.mail import send_mail
+
 
 
 # ========== method-to-access-home-view ==========

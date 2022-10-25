@@ -126,4 +126,6 @@ LOGIN_REDIRECT_URL = '/todolist'
 
 LOGOUT_REDIRECT_URL = '/login'
 
+DEFAULT_FROM_EMAIL ='rahul@gmail.com'
 
+EMAIL_BACKEND ='django.core.mail.backends.console.EmailBackend'

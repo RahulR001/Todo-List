@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d3dd80-f15b-4c3e-a236-8b28ac52e2cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/registration/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
